@@ -12,9 +12,9 @@ assignees: ''
  - OS: [e.g. Android 7]
  - Api Version [e.g. API24]
  
-**APIs, libraries related to your bug**
- e.g. Camera Api
- e.g. Accelerometer
+**APIs, libraries related to your bug:**
+ - e.g. Camera Api
+ - e.g. Accelerometer
  
 **Expected behavior**
 A clear and concise description of what you expected to happen.
