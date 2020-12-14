@@ -1,6 +1,6 @@
 ---
 name: OEM Bug report
-about: Create a report to warn other developers
+about: Create a report to share with other developers
 title: ''
 labels: ''
 assignees: ''
