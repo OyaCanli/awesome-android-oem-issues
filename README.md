@@ -6,4 +6,4 @@ This repo is created to share the problems we encountered with specific devices,
 
 # How to Contribute
 
-You can contribute by sharing your experiences as <b>issues</b>. Please add an appropriate title and use appropriate tags including <b>brand and model of the device</b>, <b>Android OS version</b> and <b>related apis, libraries used</b> that causes the problem, so that others can easily search through. If you had solved your issue, that would be awesome to add your <b>solutions</b> as well!
+You can contribute by sharing your experiences as **issues**. Please add an appropriate title and use appropriate tags including **brand and model of the device**, **Android OS version** and **related apis, libraries used** that causes the problem, so that others can easily search through. If you had solved your issue, that would be awesome to add your **solutions** as well!
