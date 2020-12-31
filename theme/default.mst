@@ -1,0 +1,42 @@
+<h1 class="display-4">Summary</h1>
+
+<ul class="list-group">
+    {{#datasets}}
+    <li class="list-group-item"><a href="#{{api}}">{{api}}</a></li>
+    {{/datasets}}
+</ul>
+
+{{#datasets}}
+<div id={{api}}>
+    <h1 class="display-6">{{api}}</h1>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Class</th>
+                <th scope="col">Devices</th>
+                <th scope="col">Issue</th>
+                <th scope="col">Discussion</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {{#classes}}
+            <tr>
+                <td style="width: 25%"><a href={{apiurl}} target=”_blank”>{{classname}}</a></td>
+                <td style="width: 25%">{{devices}}</td>
+                <td style="width: 25%">{{description}}</td>
+                <td style="width: 25%">
+                    {{#discussion}}
+                    <a href={{discussion}} target=”_blank”>Opened discussion about the issue</a>
+                    {{/discussion}}
+                    {{^discussion}}
+                    Open a new discussion about this issue
+                    {{/discussion}}
+                </td>
+            </tr>
+            {{/classes}}
+        </tbody>
+
+    </table>
+</div>
+{{/datasets}}

@@ -1,0 +1,40 @@
+[
+  {
+    "api": "androidx.navigation",
+    "classes": [
+      {
+        "classname": "androidx.navigation.fragment",
+        "apiurl": "https://developer.android.com/reference/androidx/navigation/fragment/package-summary",
+        "devices": [
+          "Nokia 7+",
+          "Samsung Galaxy S10"
+        ],
+        "description": "sa march aps",
+        "discussion": "https://google.fr"
+      },
+      {
+        "classname": "androidx.navigation.ui",
+        "apiurl": "https://developer.android.com/reference/androidx/navigation/ui/package-summary",
+        "devices": [
+          "Nokia 7+",
+          "Huawei P20 Lite"
+        ],
+        "description": "Crash on the Huawei when you try to use gms."
+      }
+    ]
+  },
+  {
+    "api": "android.net.wifi.WifiManager",
+    "classes": [
+      {
+        "classname": "android.net.wifi.WifiManager.WifiLock",
+        "apiurl": "https://developer.android.com/reference/kotlin/android/net/wifi/WifiManager.WifiLock",
+        "devices": [
+          "Nokia 7+"
+        ],
+        "description": "sa march aps nn +",
+        "discussion": "https://google.com"
+      }
+    ]
+  }
+]

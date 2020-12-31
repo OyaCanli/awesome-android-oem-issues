@@ -14,3 +14,40 @@ You can see our goals [in the issue #1](https://github.com/OyaCanli/awesome-andr
 ## How to Contribute
 
 You can already contribute by sharing your experiences as **issues**. Please add an appropriate title and use appropriate tags including **brand and model of the device**, **Android OS version** and **related APIs, libraries used** that causes the problem, so that others can easily search through. If you had solved your issue, that would be awesome to add your **solutions** as well!
+
+## Project structure
+
+```
+.
++--css
++--data
+---+--issues.json <-- The file to modify to contribute
++--imgs
++--js
++--theme
++--index.html
+```
+
+## Data structure
+
+To contribute, please insert the new issue in the issues.json file and respect the following structure :
+
+```json
+{
+    "api": "androidx.navigation",
+    "classes": [
+      {
+        "classname": "androidx.navigation.fragment",
+        "apiurl": "https://developer.android.com/reference/androidx/navigation/fragment/package-summary",
+        "devices": [
+          "Nokia 7+",
+          "Samsung Galaxy S10"
+        ],
+        "description": "Description of the issue",
+        "discussion": "https://google.fr" //Optionnal
+      }
+    ]
+  }
+````
+
+To test your implementation, launch your web browser with the option `allow-file-access-from-files`.
