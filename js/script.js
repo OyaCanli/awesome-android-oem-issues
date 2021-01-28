@@ -1,9 +1,8 @@
 $().ready(function(){
     $.getJSON("./data/issues.json", function(data) {
 
-        console.log(data[0].api);
-        console.log(data[0].classes[0].classname);
-        console.log(data[0].classes[0].devices[0]);
+        console.log(data);
+    
 
         var theme = './theme/default.mst';
 
