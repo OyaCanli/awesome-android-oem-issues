@@ -2,7 +2,7 @@
 
 <ul class="list-group">
     {{#datasets}}
-    <li class="list-group-item"><a href="#{{topic}}">{{topic}}</a></li>
+        <li class="list-group-item"><a href="#{{topic}}">{{topic}}</a></li>
     {{/datasets}}
 </ul>
 

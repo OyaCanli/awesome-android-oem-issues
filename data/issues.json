@@ -1,43 +1,61 @@
 [
   {
-    "topic": "Jetpack Navigation",
+    "topic": "TextToSpeech",
     "issues": [
       {
-        "shortDescription": "sa march aps",
-        "relatedClass": "androidx.navigation.fragment", 
-        "tags": ["jetpack", "navigation", "fragment"],
+        "shortDescription": "Robot voice on Samsung devices",
+        "relatedClass": "android.speech.tts.TextToSpeech", 
+        "tags": ["texttospeech", "samsung", "robot"],
         "devices": [
               {
-                  "brand" : "Nokia",
-                  "model" : "7+",
-                  "OSVersion" : "Android One"
+                  "brand" : "Samsung",
+                  "model" : "Galaxy Note Fan Edition",
+                  "OSVersion" : "ONEUI 1"
               },
               {
                   "brand" : "Samsung",
-                  "model" : "Galaxy S10",
-                  "OSVersion" : "One Ui(2.0)"
+                  "model" : "Galaxy Note 9",
+                  "OSVersion" : "ONEUI 2"
               }
           ],
-          "linkToDiscussion": "https://github.com/OyaCanli/awesome-android-oem-issues/issues/1" 
-      },
-      {
-        "shortDescription": "Crash on the Huawei when you try to use gms.",
-        "relatedClass": "androidx.navigation.ui",
-        "tags": ["jetpack", "navigation", "ui"],
-        "devices": [
-              {
-                  "brand" : "Nokia",
-                  "model" : "7+",
-                  "OSVersion" : "Android One"
-              },
-              {
-                  "brand" : "Huawei",
-                  "model" : "P30",
-                  "OSVersion" : "EMUI 10"
-              }
-          ],
-          "linkToDiscussion": "https://github.com/OyaCanli/awesome-android-oem-issues/issues/42" 
+          "linkToDiscussion": "https://github.com/OyaCanli/awesome-android-oem-issues/issues/2" 
       }
     ]
+  },
+  {
+    "topic": "TextView",
+    "issues": [
+      {
+        "shortDescription": "The text disapear after a rotationX or Y",
+        "relatedClass": "android.widget.TextView",
+        "tags": ["textview", "huawei", "rotationx", "rotationy"],
+        "devices": [
+          {
+            "brand" : "Huawei",
+            "model" : "P9 Lite",
+            "OSVersion" : "EMUI 5.0.4"
+        }
+        ]
+      }
+    ],
+    "linkToDiscussion": "https://github.com/OyaCanli/awesome-android-oem-issues/issues/3"
+  },
+  {
+    "topic": "WifiManager",
+    "issues": [
+      {
+        "shortDescription": "Can't stream a video from a camera with its own wifi hotspot",
+        "relatedClass": "android.net.wifi.WifiManager",
+        "tags": ["wifimanager", "stream", "nokia", "wifi"],
+        "devices": [
+          {
+            "brand" : "Nokia",
+            "model" : "7+",
+            "OSVersion" : "Android 10"
+        }
+        ]
+      }
+    ],
+    "linkToDiscussion": "https://github.com/OyaCanli/awesome-android-oem-issues/issues/5"
   }
 ]

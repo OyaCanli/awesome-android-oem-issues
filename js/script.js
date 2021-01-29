@@ -1,9 +1,7 @@
 $().ready(function(){
     $.getJSON("./data/issues.json", function(data) {
 
-        console.log(data);
-    
-
+        //TODO : Sort by topic; and in topics sort by relatedClass
         var theme = './theme/default.mst';
 
         $.get(theme, function(template) {
