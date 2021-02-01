@@ -8,7 +8,7 @@ This repository is created to share the problems we encountered with specific br
 
 OEM issues are composed as GitHub discussions in this repository. You can directly go to the [discussions](https://github.com/OyaCanli/awesome-android-oem-issues/discussions) section of this repository and start browsing through the issues. You can filter by the categories on the left, and you can use the search box if you look for something specific.
 
-We also have a website for browsing issues.  It provides a different overview, and we hope to improve it and add several filtering options in the future, for better insights. That’s the reason we request developers to also contribute to the JSON file. 
+We also have a [website](https://oyacanli.github.io/awesome-android-oem-issues/) for browsing issues.  It provides a different overview, and we hope to improve it and add several filtering options in the future, for better insights. That’s the reason we request developers to also contribute to the JSON file. 
 
 ## How to Contribute
 
