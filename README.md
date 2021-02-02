@@ -2,7 +2,7 @@
 
 As Android application developers, one of our worst nightmares is to deal with unexpected issues due to the variety of Original Equipment Manufacturers(OEMs). Since we can't test our apps on every existing Android overlay, we usually recognize these late, through unhappy clients on the PlayStore.
 
-This repository has been created to share problems we encountered with specific brands and models, to be warned about them before starting a new feature and to discuss about solutions or workarounds.
+This repository has been created to share problems we encountered with specific brands and models, so that we can be aware of them before starting a new feature and to discuss solutions or workarounds.
 
 ## Browsing OEM Issues
 
