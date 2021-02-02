@@ -1,0 +1,61 @@
+[
+  {
+    "topic": "TextToSpeech",
+    "issues": [
+      {
+        "shortDescription": "TextToSpeech gives out robotic voice on Samsung devices",
+        "relatedClass": "android.speech.tts.TextToSpeech", 
+        "tags": ["texttospeech", "samsung", "robotic"],
+        "devices": [
+              {
+                  "brand" : "Samsung",
+                  "model" : "Galaxy Note Fan Edition",
+                  "OSVersion" : "ONEUI 1 Android 9"
+              },
+              {
+                  "brand" : "Samsung",
+                  "model" : "Galaxy Note 9",
+                  "OSVersion" : "ONEUI 2 Android 10"
+              }
+          ],
+          "linkToDiscussion": "https://github.com/OyaCanli/awesome-android-oem-issues/issues/2" 
+      }
+    ]
+  },
+  {
+    "topic": "View",
+    "issues": [
+      {
+        "shortDescription": "When rotationX or rotationY is used, the view doesn't show up on Huawei",
+        "relatedClass": "android.view",
+        "tags": ["view", "huawei", "rotationx", "rotationy"],
+        "devices": [
+          {
+            "brand" : "Huawei",
+            "model" : "P9 Lite",
+            "OSVersion" : "EMUI 5.0.4 Android 7"
+        }
+        ]
+      }
+    ],
+    "linkToDiscussion": "https://github.com/OyaCanli/awesome-android-oem-issues/issues/3"
+  },
+  {
+    "topic": "WifiManager",
+    "issues": [
+      {
+        "shortDescription": "Can't stream a video from a camera with its own wifi hotspot",
+        "relatedClass": "android.net.wifi.WifiManager",
+        "tags": ["wifimanager", "stream", "nokia", "wifi"],
+        "devices": [
+          {
+            "brand" : "Nokia",
+            "model" : "7+",
+            "OSVersion" : "Android 10"
+        }
+        ]
+      }
+    ],
+    "linkToDiscussion": "https://github.com/OyaCanli/awesome-android-oem-issues/issues/5"
+  }
+]

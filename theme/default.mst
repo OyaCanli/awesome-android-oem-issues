@@ -1,0 +1,43 @@
+<h1 class="display-4">Summary</h1>
+
+<ul class="list-group">
+    {{#datasets}}
+        <li class="list-group-item"><a href="#{{topic}}">{{topic}}</a></li>
+    {{/datasets}}
+</ul>
+
+{{#datasets}}
+<div id={{topic}}>
+    <h1 class="display-6">{{topic}}</h1>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Class</th>
+                <th scope="col">Devices</th>
+                <th scope="col">Description</th>
+                <th scope="col">Discussion</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {{#issues}}
+            <tr>
+                <td style="width: 25%">{{#relatedClass}}{{relatedClass}}{{/relatedClass}}</td>
+                <td style="width: 25%">
+                    <ul>
+                        {{#devices}}
+                            <li>{{brand}} {{model}} ({{OSVersion}})</li>
+                        {{/devices}}
+                    </ul>
+                </td>
+                <td style="width: 25%">{{shortDescription}}</td>
+                <td style="width: 25%">
+                    <a href={{linkToDiscussion}} target=”_blank”>Opened discussion about the issue</a>
+                </td>
+            </tr>
+            {{/issues}}
+        </tbody>
+
+    </table>
+</div>
+{{/datasets}}

@@ -1,16 +1,18 @@
 # "Awesome" Android OEM issues (Common problems with specific Android device types from OEMs)
 
-As Android developers, we struggle daily with the variety of OEMs, each coming with their own problems. Something that seems to work with most of the devices, may crash or behave in an unexpected way on a particular type of device. And usually we recognize this rather late, through unhappy clients. 
+As Android application developers, one of our worst nightmares is to deal with unexpected issues due to the variety of Original Equipment Manufacturers(OEMs). Since we can't test our apps on every existing Android overlay, we usually recognize these late, through unhappy clients on the PlayStore.
 
-This repo is created to share the problems we encountered with specific devices, so that others can look up and be cautious about it before putting theirs app into production.
+This repository has been created to share problems we encountered with specific brands and models, so that we can be aware of them before starting a new feature and to discuss solutions or workarounds.
 
-## State of this repository
+## Browsing OEM Issues
 
-This repository is Work-In-Progress: We need to figure out how to organize it so it works well on the long run, as new OEM issues arise, evolve, and are fixed (hopefully!).
+Issues reported by the community are listed [on our website](https://oyacanli.github.io/awesome-android-oem-issues/).
 
-You can see our goals [in the issue #1](https://github.com/OyaCanli/awesome-android-oem-issues/issues/1). Ideas or considerations we forgot about are welcome in the comments!
+Discussions for each issue are located in the discussions section of this repository. So alternatively, you can directly access them through [discussions](https://github.com/OyaCanli/awesome-android-oem-issues/discussions). You can filter by the categories on the left, and you can use the search box if you look for something specific.
 
 
 ## How to Contribute
 
-You can already contribute by sharing your experiences as **issues**. Please add an appropriate title and use appropriate tags including **brand and model of the device**, **Android OS version** and **related APIs, libraries used** that causes the problem, so that others can easily search through. If you had solved your issue, that would be awesome to add your **solutions** as well!
+If you have an OEM issue that you'd like to share with others, we request you to compose your issue as a github discussion and add your data to our JSON file. For details, please refer to the [wiki page](https://github.com/OyaCanli/awesome-android-oem-issues/wiki) and follow the steps listed there.
+
+Thank you for your interest in "Awesome" Android OEM issues!
