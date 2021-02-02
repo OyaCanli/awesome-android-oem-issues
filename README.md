@@ -6,9 +6,9 @@ This repository has been created to share problems we encountered with specific 
 
 ## Browsing OEM Issues
 
-Issues reported by the community are listed [here](https://oyacanli.github.io/awesome-android-oem-issues/).
+Issues reported by the community are listed [on our website](https://oyacanli.github.io/awesome-android-oem-issues/).
 
-OEM issues are composed as GitHub discussions. You can [access them](https://github.com/OyaCanli/awesome-android-oem-issues/discussions) and start browsing through the issues. You can filter by the categories on the left, and you can use the search box if you look for something specific.
+Discussions for each issue are located in the discussions section of this repository. So alternatively, you can directly access them through [discussions](https://github.com/OyaCanli/awesome-android-oem-issues/discussions). You can filter by the categories on the left, and you can use the search box if you look for something specific.
 
 
 ## How to Contribute
