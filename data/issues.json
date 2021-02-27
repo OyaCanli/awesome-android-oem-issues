@@ -1,5 +1,23 @@
 [
   {
+    "topic": "Text",
+    "issues": [
+      {
+        "shortDescription": "ColorSpan doesn't work on Huawei",
+        "relatedClass": "android.text.style.ForegroundColorSpan", 
+        "tags": ["colorspan", "huawei"],
+        "devices": [
+          {
+            "brand" : "Huawei",
+            "model" : "P9 Lite",
+            "OSVersion" : "EMUI 5.0.4 Android 7"
+          }
+        ],
+        "linkToDiscussion": "https://github.com/OyaCanli/awesome-android-oem-issues/discussions/9" 
+      }
+    ]
+  },
+  {
     "topic": "TextToSpeech",
     "issues": [
       {
@@ -18,7 +36,7 @@
                   "OSVersion" : "ONEUI 2 Android 10"
               }
           ],
-          "linkToDiscussion": "https://github.com/OyaCanli/awesome-android-oem-issues/issues/2" 
+          "linkToDiscussion": "https://github.com/OyaCanli/awesome-android-oem-issues/discussions/2" 
       }
     ]
   },
@@ -34,11 +52,11 @@
             "brand" : "Huawei",
             "model" : "P9 Lite",
             "OSVersion" : "EMUI 5.0.4 Android 7"
-        }
-        ]
+          }
+        ],
+        "linkToDiscussion": "https://github.com/OyaCanli/awesome-android-oem-issues/discussions/3"
       }
     ],
-    "linkToDiscussion": "https://github.com/OyaCanli/awesome-android-oem-issues/issues/3"
   },
   {
     "topic": "WifiManager",
@@ -52,10 +70,10 @@
             "brand" : "Nokia",
             "model" : "7+",
             "OSVersion" : "Android 10"
-        }
-        ]
+          }
+        ],
+        "linkToDiscussion": "https://github.com/OyaCanli/awesome-android-oem-issues/discussions/5"
       }
-    ],
-    "linkToDiscussion": "https://github.com/OyaCanli/awesome-android-oem-issues/issues/5"
+    ]
   }
 ]
