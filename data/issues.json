@@ -1,62 +1,44 @@
 [
   {
-    "topic": "Text",
-    "issues": [
-      {
-        "shortDescription": "ColorSpan doesn't work on Huawei",
-        "relatedClass": "android.text.style.ForegroundColorSpan", 
-        "tags": ["colorspan", "huawei"],
-        "devices": [
-          {
-            "brand" : "Huawei",
-            "model" : "P9 Lite",
-            "OSVersion" : "EMUI 5.0.4 Android 7"
-          }
-        ],
-        "linkToDiscussion": "https://github.com/OyaCanli/awesome-android-oem-issues/discussions/9" 
-      }
-    ]
-  },
-  {
     "topic": "TextToSpeech",
     "issues": [
       {
-        "shortDescription": "TextToSpeech gives out robotic voice on Samsung devices",
-        "relatedClass": "android.speech.tts.TextToSpeech", 
-        "tags": ["texttospeech", "samsung", "robotic"],
+        "shortDescription": "Robot voice on Samsung devices",
+        "relatedClass": "android.speech.tts.TextToSpeech",
+        "tags": ["texttospeech", "samsung", "robot"],
         "devices": [
               {
                   "brand" : "Samsung",
                   "model" : "Galaxy Note Fan Edition",
-                  "OSVersion" : "ONEUI 1 Android 9"
+                  "OSVersion" : "ONEUI 1"
               },
               {
                   "brand" : "Samsung",
                   "model" : "Galaxy Note 9",
-                  "OSVersion" : "ONEUI 2 Android 10"
+                  "OSVersion" : "ONEUI 2"
               }
           ],
-          "linkToDiscussion": "https://github.com/OyaCanli/awesome-android-oem-issues/discussions/2" 
+          "linkToDiscussion": "https://github.com/OyaCanli/awesome-android-oem-issues/discussions/2"
       }
     ]
   },
   {
-    "topic": "View",
+    "topic": "TextView",
     "issues": [
       {
-        "shortDescription": "When rotationX or rotationY is used, the view doesn't show up on Huawei",
-        "relatedClass": "android.view",
-        "tags": ["view", "huawei", "rotationx", "rotationy"],
+        "shortDescription": "The text disapear after a rotationX or Y",
+        "relatedClass": "android.widget.TextView",
+        "tags": ["textview", "huawei", "rotationx", "rotationy"],
         "devices": [
           {
             "brand" : "Huawei",
             "model" : "P9 Lite",
-            "OSVersion" : "EMUI 5.0.4 Android 7"
-          }
-        ],
-        "linkToDiscussion": "https://github.com/OyaCanli/awesome-android-oem-issues/discussions/3"
+            "OSVersion" : "EMUI 5.0.4"
+        }
+        ]
       }
     ],
+    "linkToDiscussion": "https://github.com/OyaCanli/awesome-android-oem-issues/discussions/3"
   },
   {
     "topic": "WifiManager",
@@ -70,9 +52,27 @@
             "brand" : "Nokia",
             "model" : "7+",
             "OSVersion" : "Android 10"
-          }
-        ],
-        "linkToDiscussion": "https://github.com/OyaCanli/awesome-android-oem-issues/discussions/5"
+        }
+        ]
+      }
+    ],
+    "linkToDiscussion": "https://github.com/OyaCanli/awesome-android-oem-issues/discussions/5"
+  },
+  {
+    "topic": "Text",
+    "issues": [
+      {
+        "shortDescription": "ColorSpan doesn't work on Huawei",
+        "relatedClass": "android.text.style.ForegroundColorSpan",
+        "tags": ["colorspan", "huawei"],
+        "devices": [
+         {
+           "brand" : "Huawei",
+           "model" : "P9 Lite",
+           "OSVersion" : "EMUI 5.0.4 Android 7"
+         }
+       ],
+          "linkToDiscussion": "https://github.com/OyaCanli/awesome-android-oem-issues/discussions/9"
       }
     ]
   }
